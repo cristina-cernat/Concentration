@@ -44,7 +44,10 @@ class ViewController: UIViewController {
 
     @IBAction func touchNewGame() {
         flipCount = 0
-        
+
+
+            
+
     }
 
     func updateViewFromModel() {
