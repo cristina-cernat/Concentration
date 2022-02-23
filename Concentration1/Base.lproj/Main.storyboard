@@ -16,210 +16,211 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4k-Lf-LVF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4k-Lf-LVF">
                                 <rect key="frame" x="35" y="60" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="2Ib-5r-75h"/>
+                                    <constraint firstAttribute="height" constant="120" id="69X-Ws-ytZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b5e-De-p4z"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ur-hM-rZw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ur-hM-rZw">
                                 <rect key="frame" x="123" y="60" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleColorEmojiUI" family=".Apple Color Emoji UI" pointSize="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="WwK-06-Omr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jUi-mh-egr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5u-Tm-J5q">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5u-Tm-J5q">
                                 <rect key="frame" x="299" y="61" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dQ0-yM-pdG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Phb-2S-vsY">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Phb-2S-vsY">
                                 <rect key="frame" x="211" y="60" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleColorEmojiUI" family=".Apple Color Emoji UI" pointSize="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Ir0-Tr-szo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7bv-U9-JuL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4T-00-SWV">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4T-00-SWV">
                                 <rect key="frame" x="35" y="188" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleColorEmojiUI" family=".Apple Color Emoji UI" pointSize="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="ya3-zd-zA2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xs3-nk-uf4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rzr-QT-Hi4">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rzr-QT-Hi4">
                                 <rect key="frame" x="123" y="188" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleColorEmojiUI" family=".Apple Color Emoji UI" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IaN-WR-qqB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jam-rJ-KNu">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jam-rJ-KNu">
                                 <rect key="frame" x="299" y="188" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s9B-NX-I6U"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TbU-A9-07Z">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TbU-A9-07Z">
                                 <rect key="frame" x="211" y="188" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleColorEmojiUI" family=".Apple Color Emoji UI" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wQT-HG-BPj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fl-5v-Kda">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fl-5v-Kda">
                                 <rect key="frame" x="35" y="317" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleColorEmojiUI" family=".Apple Color Emoji UI" pointSize="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="GXW-d9-U9F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wew-nj-vmN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLm-vP-gGI">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLm-vP-gGI">
                                 <rect key="frame" x="123" y="317" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleColorEmojiUI" family=".Apple Color Emoji UI" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zfQ-DB-vdX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mkj-82-1rG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mkj-82-1rG">
                                 <rect key="frame" x="299" y="317" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Src-by-XO3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7VO-vh-k6j">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7VO-vh-k6j">
                                 <rect key="frame" x="211" y="317" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleColorEmojiUI" family=".Apple Color Emoji UI" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nXP-7C-dwI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAr-Ui-Cxz">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAr-Ui-Cxz">
                                 <rect key="frame" x="35" y="445" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleColorEmojiUI" family=".Apple Color Emoji UI" pointSize="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="4MX-Ri-BWg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tFt-3l-2zw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTm-7i-Lmx">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTm-7i-Lmx">
                                 <rect key="frame" x="123" y="445" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleColorEmojiUI" family=".Apple Color Emoji UI" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fR6-Kl-v6X"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyY-g6-rdt">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyY-g6-rdt">
                                 <rect key="frame" x="299" y="445" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zmC-NQ-JIk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYc-ZA-Aq0">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYc-ZA-Aq0">
                                 <rect key="frame" x="211" y="445" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleColorEmojiUI" family=".Apple Color Emoji UI" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d4E-1t-JBj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0j-UC-ugi">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0j-UC-ugi">
                                 <rect key="frame" x="35" y="573" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleColorEmojiUI" family=".Apple Color Emoji UI" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A7d-IC-1dT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nj3-NH-9Qy">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nj3-NH-9Qy">
                                 <rect key="frame" x="123" y="573" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleColorEmojiUI" family=".Apple Color Emoji UI" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UL9-tE-HMg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m99-7x-Gkd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m99-7x-Gkd">
                                 <rect key="frame" x="299" y="573" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1FP-gM-9YS"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ca-zA-QXP">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ca-zA-QXP">
                                 <rect key="frame" x="211" y="573" width="80" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleColorEmojiUI" family=".Apple Color Emoji UI" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xs9-Qz-azo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ed3-FE-e24">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ed3-FE-e24">
                                 <rect key="frame" x="132" y="737" width="150" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="szl-Ng-Ubr"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="New game">
@@ -229,9 +230,17 @@
                                     <action selector="touchNewGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="7w3-sy-lzN"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flips:  0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sa-sX-J0V">
-                                <rect key="frame" x="35" y="809" width="168" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flips:  0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sa-sX-J0V">
+                                <rect key="frame" x="44" y="809" width="168" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="ESW-UR-p0g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" systemColor="systemOrangeColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3D-o8-ldW">
+                                <rect key="frame" x="202" y="809" width="168" height="53"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" systemColor="systemOrangeColor"/>
                                 <nil key="highlightedColor"/>
@@ -239,9 +248,150 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VLm-vP-gGI" firstAttribute="bottom" secondItem="7VO-vh-k6j" secondAttribute="bottom" id="07G-TB-NAe"/>
+                            <constraint firstItem="i5u-Tm-J5q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="17" id="0Wl-f0-rpt"/>
+                            <constraint firstItem="7Ca-zA-QXP" firstAttribute="baseline" secondItem="m99-7x-Gkd" secondAttribute="baseline" id="1um-YO-5Yv"/>
+                            <constraint firstItem="VLm-vP-gGI" firstAttribute="trailing" secondItem="UTm-7i-Lmx" secondAttribute="trailing" id="22Y-8N-3oP"/>
+                            <constraint firstItem="cYc-ZA-Aq0" firstAttribute="leading" secondItem="7Ca-zA-QXP" secondAttribute="leading" id="26k-3M-O3X"/>
+                            <constraint firstItem="VLm-vP-gGI" firstAttribute="leading" secondItem="UTm-7i-Lmx" secondAttribute="leading" id="2I6-cL-hZU"/>
+                            <constraint firstItem="2fl-5v-Kda" firstAttribute="leading" secondItem="eAr-Ui-Cxz" secondAttribute="leading" id="2SD-Me-K5k"/>
+                            <constraint firstItem="UTm-7i-Lmx" firstAttribute="firstBaseline" secondItem="eAr-Ui-Cxz" secondAttribute="firstBaseline" id="3FJ-cr-fnw"/>
+                            <constraint firstItem="TbU-A9-07Z" firstAttribute="leading" secondItem="7VO-vh-k6j" secondAttribute="leading" id="3Ka-Xo-iHu"/>
+                            <constraint firstItem="U3D-o8-ldW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="202" id="3cQ-ti-rKM"/>
+                            <constraint firstItem="X4T-00-SWV" firstAttribute="baseline" secondItem="TbU-A9-07Z" secondAttribute="baseline" id="3fA-kW-4cn"/>
+                            <constraint firstItem="7VO-vh-k6j" firstAttribute="leading" secondItem="cYc-ZA-Aq0" secondAttribute="leading" id="5FM-bI-xox"/>
+                            <constraint firstItem="rzr-QT-Hi4" firstAttribute="top" secondItem="TbU-A9-07Z" secondAttribute="top" id="5Q5-KI-WFH"/>
+                            <constraint firstItem="7sa-sX-J0V" firstAttribute="firstBaseline" secondItem="U3D-o8-ldW" secondAttribute="firstBaseline" id="5bT-mW-C0v"/>
+                            <constraint firstItem="ed3-FE-e24" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="132" id="5fb-zL-hZE"/>
+                            <constraint firstItem="Mkj-82-1rG" firstAttribute="leading" secondItem="vyY-g6-rdt" secondAttribute="leading" id="5vL-Io-YAD"/>
+                            <constraint firstItem="9Ur-hM-rZw" firstAttribute="leading" secondItem="l4k-Lf-LVF" secondAttribute="trailing" constant="8" id="5wL-4X-vNO"/>
+                            <constraint firstItem="rzr-QT-Hi4" firstAttribute="firstBaseline" secondItem="X4T-00-SWV" secondAttribute="firstBaseline" id="6FB-wd-Kp4"/>
+                            <constraint firstItem="UTm-7i-Lmx" firstAttribute="top" secondItem="cYc-ZA-Aq0" secondAttribute="top" id="6MV-Dc-uqf"/>
+                            <constraint firstItem="7VO-vh-k6j" firstAttribute="bottom" secondItem="Mkj-82-1rG" secondAttribute="bottom" id="6PV-Zq-Wf7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i5u-Tm-J5q" secondAttribute="trailing" constant="35" id="6WI-7J-2Ba"/>
+                            <constraint firstItem="UTm-7i-Lmx" firstAttribute="baseline" secondItem="eAr-Ui-Cxz" secondAttribute="baseline" id="6dV-WY-1bW"/>
+                            <constraint firstItem="9Ur-hM-rZw" firstAttribute="firstBaseline" secondItem="Phb-2S-vsY" secondAttribute="firstBaseline" id="7O6-jv-NCE"/>
+                            <constraint firstItem="7VO-vh-k6j" firstAttribute="top" secondItem="Mkj-82-1rG" secondAttribute="top" id="7Ur-Da-WHS"/>
+                            <constraint firstItem="VLm-vP-gGI" firstAttribute="baseline" secondItem="7VO-vh-k6j" secondAttribute="baseline" id="7X9-S2-tnC"/>
+                            <constraint firstItem="cYc-ZA-Aq0" firstAttribute="trailing" secondItem="7Ca-zA-QXP" secondAttribute="trailing" id="8JF-bH-Kgx"/>
+                            <constraint firstItem="Mkj-82-1rG" firstAttribute="firstBaseline" secondItem="VLm-vP-gGI" secondAttribute="firstBaseline" id="8XY-AW-Gfa"/>
+                            <constraint firstItem="9Ur-hM-rZw" firstAttribute="top" secondItem="Phb-2S-vsY" secondAttribute="top" id="8jf-8e-diT"/>
+                            <constraint firstItem="jam-rJ-KNu" firstAttribute="baseline" secondItem="TbU-A9-07Z" secondAttribute="baseline" id="8jz-IG-i4e"/>
+                            <constraint firstItem="rzr-QT-Hi4" firstAttribute="leading" secondItem="VLm-vP-gGI" secondAttribute="leading" id="8nM-zh-QxC"/>
+                            <constraint firstItem="eAr-Ui-Cxz" firstAttribute="baseline" secondItem="vyY-g6-rdt" secondAttribute="baseline" id="8yi-NF-UWF"/>
+                            <constraint firstItem="2fl-5v-Kda" firstAttribute="top" secondItem="VLm-vP-gGI" secondAttribute="top" id="B9B-dW-ogv"/>
+                            <constraint firstItem="cYc-ZA-Aq0" firstAttribute="baseline" secondItem="UTm-7i-Lmx" secondAttribute="baseline" id="BD5-q6-ZKc"/>
+                            <constraint firstItem="vyY-g6-rdt" firstAttribute="leading" secondItem="m99-7x-Gkd" secondAttribute="leading" id="C70-lB-L0a"/>
+                            <constraint firstItem="rzr-QT-Hi4" firstAttribute="trailing" secondItem="VLm-vP-gGI" secondAttribute="trailing" id="COv-4N-GUx"/>
+                            <constraint firstItem="l4k-Lf-LVF" firstAttribute="firstBaseline" secondItem="Phb-2S-vsY" secondAttribute="firstBaseline" id="Cg1-Sx-Nog"/>
+                            <constraint firstItem="2fl-5v-Kda" firstAttribute="firstBaseline" secondItem="Mkj-82-1rG" secondAttribute="firstBaseline" id="E4V-bN-kqe"/>
+                            <constraint firstItem="l4k-Lf-LVF" firstAttribute="leading" secondItem="X4T-00-SWV" secondAttribute="leading" id="EGU-tS-hiT"/>
+                            <constraint firstItem="VLm-vP-gGI" firstAttribute="baseline" secondItem="2fl-5v-Kda" secondAttribute="baseline" id="ELh-9j-z5D"/>
+                            <constraint firstItem="cYc-ZA-Aq0" firstAttribute="firstBaseline" secondItem="vyY-g6-rdt" secondAttribute="firstBaseline" id="Ec2-gn-mSX"/>
+                            <constraint firstItem="eAr-Ui-Cxz" firstAttribute="firstBaseline" secondItem="cYc-ZA-Aq0" secondAttribute="firstBaseline" id="FPh-tF-z86"/>
+                            <constraint firstItem="l4k-Lf-LVF" firstAttribute="trailing" secondItem="X4T-00-SWV" secondAttribute="trailing" id="GbV-sl-2Qw"/>
+                            <constraint firstItem="cYc-ZA-Aq0" firstAttribute="top" secondItem="vyY-g6-rdt" secondAttribute="top" id="Gc4-Qt-35N"/>
+                            <constraint firstItem="N0j-UC-ugi" firstAttribute="firstBaseline" secondItem="Nj3-NH-9Qy" secondAttribute="firstBaseline" id="H30-b7-GEY"/>
+                            <constraint firstItem="Phb-2S-vsY" firstAttribute="leading" secondItem="9Ur-hM-rZw" secondAttribute="trailing" constant="8" id="HFB-se-x85"/>
+                            <constraint firstItem="N0j-UC-ugi" firstAttribute="firstBaseline" secondItem="7Ca-zA-QXP" secondAttribute="firstBaseline" id="HJl-be-I5y"/>
+                            <constraint firstItem="N0j-UC-ugi" firstAttribute="baseline" secondItem="m99-7x-Gkd" secondAttribute="baseline" id="HbR-nr-Go7"/>
+                            <constraint firstItem="X4T-00-SWV" firstAttribute="firstBaseline" secondItem="TbU-A9-07Z" secondAttribute="firstBaseline" id="Hsm-jD-IIu"/>
+                            <constraint firstItem="N0j-UC-ugi" firstAttribute="baseline" secondItem="7Ca-zA-QXP" secondAttribute="baseline" id="IED-ma-57t"/>
+                            <constraint firstItem="rzr-QT-Hi4" firstAttribute="bottom" secondItem="TbU-A9-07Z" secondAttribute="bottom" id="IH6-UI-9XW"/>
+                            <constraint firstItem="Mkj-82-1rG" firstAttribute="firstBaseline" secondItem="7VO-vh-k6j" secondAttribute="firstBaseline" id="IZ3-yJ-V8V"/>
+                            <constraint firstItem="i5u-Tm-J5q" firstAttribute="leading" secondItem="jam-rJ-KNu" secondAttribute="leading" id="IqJ-d0-qeg"/>
+                            <constraint firstItem="X4T-00-SWV" firstAttribute="top" secondItem="l4k-Lf-LVF" secondAttribute="bottom" constant="8" id="Kmg-0u-3EG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7sa-sX-J0V" secondAttribute="trailing" constant="202" id="Krb-Uk-8Ho"/>
+                            <constraint firstItem="Phb-2S-vsY" firstAttribute="baseline" secondItem="l4k-Lf-LVF" secondAttribute="baseline" id="L10-de-0Nt"/>
+                            <constraint firstItem="N0j-UC-ugi" firstAttribute="top" secondItem="Nj3-NH-9Qy" secondAttribute="top" id="LSL-gG-e51"/>
+                            <constraint firstItem="eAr-Ui-Cxz" firstAttribute="top" secondItem="2fl-5v-Kda" secondAttribute="bottom" constant="8" id="Lx2-Xd-2cj"/>
+                            <constraint firstItem="VLm-vP-gGI" firstAttribute="top" secondItem="7VO-vh-k6j" secondAttribute="top" id="MTa-HF-xrs"/>
+                            <constraint firstItem="cYc-ZA-Aq0" firstAttribute="baseline" secondItem="vyY-g6-rdt" secondAttribute="baseline" id="Nxb-WV-vM6"/>
+                            <constraint firstItem="l4k-Lf-LVF" firstAttribute="top" secondItem="9Ur-hM-rZw" secondAttribute="top" id="PVy-1V-X4K"/>
+                            <constraint firstItem="cYc-ZA-Aq0" firstAttribute="bottom" secondItem="vyY-g6-rdt" secondAttribute="bottom" id="Px2-3t-gdI"/>
+                            <constraint firstItem="X4T-00-SWV" firstAttribute="firstBaseline" secondItem="jam-rJ-KNu" secondAttribute="firstBaseline" id="QO5-Rb-N4d"/>
+                            <constraint firstItem="Phb-2S-vsY" firstAttribute="baseline" secondItem="9Ur-hM-rZw" secondAttribute="baseline" id="Qsj-RD-D0s"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U3D-o8-ldW" secondAttribute="trailing" constant="44" id="Qx2-fJ-HzV"/>
+                            <constraint firstItem="VLm-vP-gGI" firstAttribute="firstBaseline" secondItem="2fl-5v-Kda" secondAttribute="firstBaseline" id="R5E-bH-4aW"/>
+                            <constraint firstItem="VLm-vP-gGI" firstAttribute="baseline" secondItem="Mkj-82-1rG" secondAttribute="baseline" id="RVc-HL-4Cw"/>
+                            <constraint firstItem="UTm-7i-Lmx" firstAttribute="leading" secondItem="Nj3-NH-9Qy" secondAttribute="leading" id="RpZ-gT-stE"/>
+                            <constraint firstItem="TbU-A9-07Z" firstAttribute="firstBaseline" secondItem="jam-rJ-KNu" secondAttribute="firstBaseline" id="Rpw-8i-HsL"/>
+                            <constraint firstItem="N0j-UC-ugi" firstAttribute="firstBaseline" secondItem="m99-7x-Gkd" secondAttribute="firstBaseline" id="SO6-JC-A0T"/>
+                            <constraint firstItem="X4T-00-SWV" firstAttribute="leading" secondItem="2fl-5v-Kda" secondAttribute="leading" id="Sv7-m6-qO2"/>
+                            <constraint firstItem="VLm-vP-gGI" firstAttribute="firstBaseline" secondItem="7VO-vh-k6j" secondAttribute="firstBaseline" id="TRu-mK-4or"/>
+                            <constraint firstItem="TbU-A9-07Z" firstAttribute="bottom" secondItem="jam-rJ-KNu" secondAttribute="bottom" id="TUk-qm-SOa"/>
+                            <constraint firstItem="7VO-vh-k6j" firstAttribute="baseline" secondItem="Mkj-82-1rG" secondAttribute="baseline" id="U5P-2H-Ua7"/>
+                            <constraint firstItem="2fl-5v-Kda" firstAttribute="bottom" secondItem="VLm-vP-gGI" secondAttribute="bottom" id="VQj-dI-NOK"/>
+                            <constraint firstItem="eAr-Ui-Cxz" firstAttribute="trailing" secondItem="N0j-UC-ugi" secondAttribute="trailing" id="VUi-QJ-MUr"/>
+                            <constraint firstItem="l4k-Lf-LVF" firstAttribute="bottom" secondItem="9Ur-hM-rZw" secondAttribute="bottom" id="Vpg-Ki-W3o"/>
+                            <constraint firstItem="Mkj-82-1rG" firstAttribute="trailing" secondItem="vyY-g6-rdt" secondAttribute="trailing" id="Wba-wm-1Uf"/>
+                            <constraint firstItem="Nj3-NH-9Qy" firstAttribute="firstBaseline" secondItem="7Ca-zA-QXP" secondAttribute="firstBaseline" id="Wwp-iH-pOh"/>
+                            <constraint firstItem="i5u-Tm-J5q" firstAttribute="leading" secondItem="Phb-2S-vsY" secondAttribute="trailing" constant="8" id="X58-f7-07Z"/>
+                            <constraint firstItem="X4T-00-SWV" firstAttribute="baseline" secondItem="jam-rJ-KNu" secondAttribute="baseline" id="X7Y-GX-Qat"/>
+                            <constraint firstItem="m99-7x-Gkd" firstAttribute="firstBaseline" secondItem="7Ca-zA-QXP" secondAttribute="firstBaseline" id="XI7-mP-piV"/>
+                            <constraint firstItem="UTm-7i-Lmx" firstAttribute="firstBaseline" secondItem="cYc-ZA-Aq0" secondAttribute="firstBaseline" id="Xcg-sq-YVR"/>
+                            <constraint firstItem="TbU-A9-07Z" firstAttribute="trailing" secondItem="7VO-vh-k6j" secondAttribute="trailing" id="Xfc-X4-0Tp"/>
+                            <constraint firstItem="9Ur-hM-rZw" firstAttribute="baseline" secondItem="l4k-Lf-LVF" secondAttribute="baseline" id="XnJ-SW-gTT"/>
+                            <constraint firstItem="rzr-QT-Hi4" firstAttribute="baseline" secondItem="TbU-A9-07Z" secondAttribute="baseline" id="ZHi-63-cJq"/>
+                            <constraint firstItem="eAr-Ui-Cxz" firstAttribute="bottom" secondItem="UTm-7i-Lmx" secondAttribute="bottom" id="aqF-N5-5iv"/>
+                            <constraint firstItem="Nj3-NH-9Qy" firstAttribute="top" secondItem="7Ca-zA-QXP" secondAttribute="top" id="b1l-JL-b3c"/>
+                            <constraint firstItem="jam-rJ-KNu" firstAttribute="top" secondItem="i5u-Tm-J5q" secondAttribute="bottom" constant="7" id="bas-Av-ORI"/>
+                            <constraint firstItem="eAr-Ui-Cxz" firstAttribute="top" secondItem="UTm-7i-Lmx" secondAttribute="top" id="cX1-rT-CbS"/>
+                            <constraint firstItem="jam-rJ-KNu" firstAttribute="firstBaseline" secondItem="rzr-QT-Hi4" secondAttribute="firstBaseline" id="doQ-Xy-LOe"/>
+                            <constraint firstItem="7Ca-zA-QXP" firstAttribute="bottom" secondItem="m99-7x-Gkd" secondAttribute="bottom" id="eos-FD-tRH"/>
+                            <constraint firstItem="vyY-g6-rdt" firstAttribute="baseline" secondItem="UTm-7i-Lmx" secondAttribute="baseline" id="f1O-8f-yrg"/>
+                            <constraint firstItem="UTm-7i-Lmx" firstAttribute="trailing" secondItem="Nj3-NH-9Qy" secondAttribute="trailing" id="f3e-RF-pnJ"/>
+                            <constraint firstItem="ed3-FE-e24" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fqX-Ci-Ib5"/>
+                            <constraint firstItem="X4T-00-SWV" firstAttribute="trailing" secondItem="2fl-5v-Kda" secondAttribute="trailing" id="g2X-Qx-7q0"/>
+                            <constraint firstItem="vyY-g6-rdt" firstAttribute="firstBaseline" secondItem="UTm-7i-Lmx" secondAttribute="firstBaseline" id="gao-dq-Qwf"/>
+                            <constraint firstItem="N0j-UC-ugi" firstAttribute="baseline" secondItem="Nj3-NH-9Qy" secondAttribute="baseline" id="h3d-Ni-LZ7"/>
+                            <constraint firstItem="eAr-Ui-Cxz" firstAttribute="baseline" secondItem="cYc-ZA-Aq0" secondAttribute="baseline" id="hSO-T4-X0p"/>
+                            <constraint firstItem="7sa-sX-J0V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="hsp-HW-GFz"/>
+                            <constraint firstItem="rzr-QT-Hi4" firstAttribute="baseline" secondItem="X4T-00-SWV" secondAttribute="baseline" id="htv-Xr-2xw"/>
+                            <constraint firstItem="2fl-5v-Kda" firstAttribute="trailing" secondItem="eAr-Ui-Cxz" secondAttribute="trailing" id="if0-iJ-3bO"/>
+                            <constraint firstItem="9Ur-hM-rZw" firstAttribute="trailing" secondItem="rzr-QT-Hi4" secondAttribute="trailing" id="iqY-al-rYc"/>
+                            <constraint firstItem="vyY-g6-rdt" firstAttribute="trailing" secondItem="m99-7x-Gkd" secondAttribute="trailing" id="jtB-1p-Q1A"/>
+                            <constraint firstItem="9Ur-hM-rZw" firstAttribute="leading" secondItem="rzr-QT-Hi4" secondAttribute="leading" id="jyS-9Y-T9u"/>
+                            <constraint firstItem="rzr-QT-Hi4" firstAttribute="firstBaseline" secondItem="TbU-A9-07Z" secondAttribute="firstBaseline" id="l2G-FU-d0r"/>
+                            <constraint firstItem="7VO-vh-k6j" firstAttribute="trailing" secondItem="cYc-ZA-Aq0" secondAttribute="trailing" id="l5C-e9-SyT"/>
+                            <constraint firstItem="Nj3-NH-9Qy" firstAttribute="firstBaseline" secondItem="m99-7x-Gkd" secondAttribute="firstBaseline" id="lER-iC-ndo"/>
+                            <constraint firstItem="l4k-Lf-LVF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="mQD-jy-jKm"/>
+                            <constraint firstItem="Phb-2S-vsY" firstAttribute="trailing" secondItem="TbU-A9-07Z" secondAttribute="trailing" id="mWM-Je-4BN"/>
+                            <constraint firstItem="9Ur-hM-rZw" firstAttribute="bottom" secondItem="Phb-2S-vsY" secondAttribute="bottom" id="mya-GA-Vki"/>
+                            <constraint firstItem="X4T-00-SWV" firstAttribute="bottom" secondItem="rzr-QT-Hi4" secondAttribute="bottom" id="oE9-YC-tyT"/>
+                            <constraint firstItem="9Ur-hM-rZw" firstAttribute="firstBaseline" secondItem="l4k-Lf-LVF" secondAttribute="firstBaseline" id="oXN-BP-VKW"/>
+                            <constraint firstItem="7sa-sX-J0V" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="oa3-kt-ag0"/>
+                            <constraint firstItem="jam-rJ-KNu" firstAttribute="trailing" secondItem="Mkj-82-1rG" secondAttribute="trailing" id="ovq-GW-dq3"/>
+                            <constraint firstItem="X4T-00-SWV" firstAttribute="top" secondItem="rzr-QT-Hi4" secondAttribute="top" id="pcp-RG-Hrb"/>
+                            <constraint firstItem="N0j-UC-ugi" firstAttribute="bottom" secondItem="Nj3-NH-9Qy" secondAttribute="bottom" id="pgg-a2-6et"/>
+                            <constraint firstItem="7Ca-zA-QXP" firstAttribute="top" secondItem="m99-7x-Gkd" secondAttribute="top" id="q1D-jd-OsF"/>
+                            <constraint firstItem="i5u-Tm-J5q" firstAttribute="trailing" secondItem="jam-rJ-KNu" secondAttribute="trailing" id="rej-2G-Efr"/>
+                            <constraint firstItem="rzr-QT-Hi4" firstAttribute="baseline" secondItem="jam-rJ-KNu" secondAttribute="baseline" id="rfl-TB-XKz"/>
+                            <constraint firstItem="vyY-g6-rdt" firstAttribute="firstBaseline" secondItem="eAr-Ui-Cxz" secondAttribute="firstBaseline" id="riu-dW-6c5"/>
+                            <constraint firstItem="l4k-Lf-LVF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="sXT-h9-8OX"/>
+                            <constraint firstItem="Phb-2S-vsY" firstAttribute="leading" secondItem="TbU-A9-07Z" secondAttribute="leading" id="tXe-AX-QRW"/>
+                            <constraint firstItem="2fl-5v-Kda" firstAttribute="baseline" secondItem="Mkj-82-1rG" secondAttribute="baseline" id="tin-Ai-UfV"/>
+                            <constraint firstItem="m99-7x-Gkd" firstAttribute="baseline" secondItem="Nj3-NH-9Qy" secondAttribute="baseline" id="tqL-vv-dQm"/>
+                            <constraint firstItem="2fl-5v-Kda" firstAttribute="firstBaseline" secondItem="7VO-vh-k6j" secondAttribute="firstBaseline" id="twa-cc-sjK"/>
+                            <constraint firstItem="UTm-7i-Lmx" firstAttribute="bottom" secondItem="cYc-ZA-Aq0" secondAttribute="bottom" id="u7p-X3-KfT"/>
+                            <constraint firstItem="Nj3-NH-9Qy" firstAttribute="bottom" secondItem="7Ca-zA-QXP" secondAttribute="bottom" id="up3-yy-lza"/>
+                            <constraint firstItem="7sa-sX-J0V" firstAttribute="top" secondItem="ed3-FE-e24" secondAttribute="bottom" constant="22" id="vWn-dv-dP4"/>
+                            <constraint firstItem="Nj3-NH-9Qy" firstAttribute="baseline" secondItem="7Ca-zA-QXP" secondAttribute="baseline" id="wMV-bc-Qzo"/>
+                            <constraint firstItem="N0j-UC-ugi" firstAttribute="top" secondItem="eAr-Ui-Cxz" secondAttribute="bottom" constant="8" id="wMv-CR-STn"/>
+                            <constraint firstItem="eAr-Ui-Cxz" firstAttribute="leading" secondItem="N0j-UC-ugi" secondAttribute="leading" id="wP1-Lt-fBN"/>
+                            <constraint firstItem="2fl-5v-Kda" firstAttribute="top" secondItem="X4T-00-SWV" secondAttribute="bottom" constant="9" id="wl1-PU-W4c"/>
+                            <constraint firstItem="ed3-FE-e24" firstAttribute="top" secondItem="Nj3-NH-9Qy" secondAttribute="bottom" constant="44" id="wvh-lN-50P"/>
+                            <constraint firstItem="jam-rJ-KNu" firstAttribute="leading" secondItem="Mkj-82-1rG" secondAttribute="leading" id="xRN-BL-NEJ"/>
+                            <constraint firstItem="7sa-sX-J0V" firstAttribute="baseline" secondItem="U3D-o8-ldW" secondAttribute="baseline" id="xrU-RO-lXx"/>
+                            <constraint firstItem="7VO-vh-k6j" firstAttribute="baseline" secondItem="2fl-5v-Kda" secondAttribute="baseline" id="yQE-hd-Wx5"/>
+                            <constraint firstItem="TbU-A9-07Z" firstAttribute="top" secondItem="jam-rJ-KNu" secondAttribute="top" id="zfW-02-mia"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="flipCountLabel" destination="7sa-sX-J0V" id="iMP-a1-BYN"/>
+                        <outlet property="newGameButton" destination="ed3-FE-e24" id="QYB-bi-XFm"/>
+                        <outlet property="scoreLabel" destination="U3D-o8-ldW" id="Eeg-gp-lB4"/>
                         <outletCollection property="cardButtons" destination="l4k-Lf-LVF" collectionClass="NSMutableArray" id="QM4-Fk-5Lv"/>
                         <outletCollection property="cardButtons" destination="9Ur-hM-rZw" collectionClass="NSMutableArray" id="bVg-aR-ifU"/>
                         <outletCollection property="cardButtons" destination="i5u-Tm-J5q" collectionClass="NSMutableArray" id="Bnx-9r-eLP"/>
